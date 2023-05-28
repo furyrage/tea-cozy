@@ -1,0 +1,122 @@
+body {
+    background-color: black;
+    margin: 0 auto;
+    color: seashell;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    font-size: 1.8rem;
+    background-color: transparent;
+}
+
+
+nav {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    display: inline-block;
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+    list-style: none;
+}
+
+a {
+    color: seashell;
+}
+
+header {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    height: 700px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.mission {
+    background-color: black;
+    opacity: 1;
+    width: 100%;
+}
+
+.featured-tea {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.title {
+    max-width: 1200px;
+    margin: 0 auto;
+    order: -1;
+    flex: 1 0 100%;
+    background-color: transparent;
+}
+
+.img {
+    justify-content: center;
+}
+
+.img img{
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+.locations {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    max-width: 1200px;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.locations .title {
+    margin-top: -30px;
+}
+
+.address-panel {
+    width: 300px;
+    opacity: 1;
+    margin: 0 20px;
+    margin-top: -15px;
+    line-height: 1.8;
+    background-color: black;
+} 
+
+.contact {
+    height: 200px;
+}
+
+.contact h5 {
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+
+footer {
+    display: flex;
+    margin-left: 20px;
+}
+
